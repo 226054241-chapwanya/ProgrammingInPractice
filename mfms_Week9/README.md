@@ -6,7 +6,7 @@
 The MFMS applicationis organized into the folowing modules:
 
 - **main.c** Contains the main function and controls the application menu.
-- **employees.c / employees.h:** Handle employee-related operations and provide their function prototypes.
+- **employee.c / employees.h:** Handle employee-related operations and provide their function prototypes.
 - **budget.c / budget.h:** Handle budget-related operations and provide their 
 
 - **utilities.c / utilities.h:** Contain reusable input and helper functions.
@@ -27,7 +27,7 @@ gcc -std=c99 -Wall -Wextra -pedantic -c reports.c
 Link all object files to create the executable:
 
 ```bash
-gcc main.o employees.o budget.o utilities.o reports.o -o mfms
+gcc main.o employee.o budget.o utilities.o reports.o -o mfms
 ```
 
 Run the application:
