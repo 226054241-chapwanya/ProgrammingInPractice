@@ -15,6 +15,8 @@ void displayMenu(void)
     printf("2. Display Employees\n");
     printf("3. Search Employee\n");
     printf("4. Calculate Salary\n");
-    printf("5. Exit\n");
+    printf("5. Calculate Budget\n");
+    printf("6. Display Report\n");
+    printf("7. Exit\n");
     printf("Enter choice: ");
 }
